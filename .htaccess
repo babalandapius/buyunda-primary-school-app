@@ -1,0 +1,19 @@
+Options -Indexes
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Prevent loop if request is already aiming at /public/
+    RewriteCond %{REQUEST_URI} !^/public/ [NC]
+    
+    # Check if file/folder exists inside public directory
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+
+    # Redirect all traffic to the public directory
+    RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>
+
+<FilesMatch "\.(php|phar)$">
+    Require all granted
+</FilesMatch>

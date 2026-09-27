@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 120" role="img" aria-label="Buyunda Primary School logo placeholder">
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1">
+      <stop offset="0%" stop-color="#065f46"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="120" rx="18" fill="#f8fafc"/>
+  <rect x="18" y="18" width="84" height="84" rx="16" fill="url(#g1)"/>
+  <path d="M32 76 L60 40 L88 76" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M40 76 V92 H80 V76" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="120" y="55" font-size="27" font-family="Arial, sans-serif" font-weight="700" fill="#0f172a">Buyunda</text>
+  <text x="121" y="82" font-size="22" font-family="Arial, sans-serif" fill="#475569">Primary School</text>
+</svg>
